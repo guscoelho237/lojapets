@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Pets</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/icone.png" type="image/x-icon">
+</head>
+<body>
+     <!-- Código de leitura em Libras -->
+
+    <!-- inicio ACESSIBILIDADE EM LIBRAS -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <!-- fim ACESSIBILIDADE EM LIBRAS -->
+
+    <header>
+        <nav>
+            <ul>
+                <!-- Links das outras páginas -->
+                <li><img src="./img/icone.png" alt="" width="100"></li> 
+                <li><a href="hqs.html">Galeria de Fotos</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="produtos.html">Produtos</a></li> 
+            </ul>
+        </nav>
+    </header>
+    
+<br><br><br>
+<!--Cards com as imagens-->
+<section class="produtos">
+    <div class="produto">
+        <img src="./img/higienepet.jpg" alt="Higiene">
+        <a href="higiene.html">Produtos de Higiene</a>
+        <p>Produtos de Higiene e Saúde para seu pet</p>
+    </div>
+    <div class="produto">
+        <img src="./img/alimentação.jpg" alt="Alimentação"> 
+        <a href="alimentacao.html">Produtos de Alimentação</a>
+        <p> Rações e Produtos de Alimentação para seu pet</p>
+    </div>
+    <div class="produto">
+        <img src="./img/acessoriospet.jpg" alt="Acessorios">
+        <a href="Acessorios.html">Produtos de Acessorios</a>
+        <p> Produtos de Acessorio para seu pet (roupas, brinquedos e etc)</p>
+    </div>
+</section>
+
+
+ <!--Footer-->
+ <footer>
+    <div class="footer-container">
+     
+    <div class="footer-section">
+        <center><h4>Siga-nos</h4>
+        <div class="Social-links">
+        <a href="https://facebook.com" style="color: rgb(196, 196, 196);" target="_blank">Facebook</a> <br>
+        <a href="https://twitter.com" style=" color: rgb(196, 196, 196);" target="_blank">Twitter</a> <br>
+        <a href="https://instagram.com" style=" color:rgb(196, 196, 196);" target="_blank">Instagram</a></center>
+        </div>
+    </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy;2024 Empresa. Todos os direitos reservados.</p>
+    </div>
+</footer>
+</body>
+</html>

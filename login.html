@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/cadastro.css">
+    <link rel="shortcut icon" href="./img/icone.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Código de leitura em Libras -->
+
+   <!-- inicio ACESSIBILIDADE EM LIBRAS -->
+   <div vw class="enabled">
+       <div vw-access-button class="active"></div>
+       <div vw-plugin-wrapper>
+           <div class="vw-plugin-top-wrapper"></div>
+       </div>
+   </div>
+   <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+   <script>
+       new window.VLibras.Widget('https://vlibras.gov.br/app');
+   </script>
+   <!-- fim ACESSIBILIDADE EM LIBRAS -->
+
+   <header>
+       <nav>
+           <ul>
+               <!-- Links das outras páginas -->
+               <li><img src="./img/icone.png" alt="" width="100"></li> <!-- Coloquei o ícone dentro de um <li> para ficar na mesma estrutura -->
+               <li><a href="hqs.html">Galeria de Fotos</a></li>
+               <li><a href="sobre.html">Sobre Nós</a></li>
+               <li><a href="produtos.html">Produtos</a></li> 
+           </ul>
+       </nav>
+   </header>
+    
+    <div class="login-cadastro">
+        <h1>Login</h1>
+        <form action="dashboard.html" method="post"> <!-- Ação do formulário -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+            
+            <button type="submit">Entrar</button>
+        </form>
+        <p>Não tem uma conta? <a href="cadastro.html">Clique aqui para criar uma!</a></p>
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <div class="footer-container">
+         
+        <div class="footer-section">
+            <center><h4>Siga-nos</h4>
+            <div class="Social-links">
+            <a href="https://facebook.com" style="color: rgb(196, 196, 196);" target="_blank">Facebook</a> <br>
+            <a href="https://twitter.com" style=" color: rgb(196, 196, 196);" target="_blank">Twitter</a> <br>
+            <a href="https://instagram.com" style=" color:rgb(196, 196, 196);" target="_blank">Instagram</a></center>
+            </div>
+        </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy;2024 Empresa. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    </body>
+    </html>
